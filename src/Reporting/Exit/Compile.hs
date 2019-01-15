@@ -12,8 +12,8 @@ import qualified Data.List as List
 import qualified Data.Text as Text
 import qualified Data.Time.Clock as Time
 
-import qualified Elm.Compiler as Compiler
-import qualified Elm.Compiler.Module as Module
+import qualified Homespun.Compiler as Compiler
+import qualified Homespun.Compiler.Module as Module
 import qualified Json.Encode as Encode
 import qualified Reporting.Doc as D
 

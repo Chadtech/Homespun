@@ -28,14 +28,14 @@ import Data.Monoid ((<>))
 import qualified Data.Text as Text
 import qualified Data.Text.Lazy as TL
 import qualified Data.Text.Lazy.Builder as TB
-import qualified Elm.Name as N
+import qualified Homespun.Name as N
 import qualified System.Console.ANSI.Types as Ansi
 import System.IO (Handle)
 import qualified Text.PrettyPrint.ANSI.Leijen as P
 
 import qualified Data.Index as Index
-import qualified Elm.Compiler.Version as Compiler
-import qualified Elm.Package as Pkg
+import qualified Homespun.Compiler as Compiler
+import qualified Homespun.Package as Pkg
 import qualified Json.Encode as E
 
 

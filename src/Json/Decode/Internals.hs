@@ -25,7 +25,7 @@ import qualified Data.Scientific as Sci
 import qualified Data.Text as Text
 import qualified Data.Vector as Vector
 import Data.Vector ((!?))
-import qualified Elm.Name as N
+import qualified Homespun.Name as N
 import qualified Json.Encode as E
 
 
