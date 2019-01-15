@@ -29,25 +29,17 @@ intro :: P.Doc
 intro =
   P.vcat
     [ P.fillSep
-        ["Hi,","thank","you","for","trying","out"
-        ,P.green "Elm"
-        ,P.green (P.text (Pkg.versionToString Compiler.version)) <> "."
-        ,"I hope you like it!"
+        ["Hi,","this","is"
+        ,P.blue "Homespun"
+        ,P.blue (P.text (Pkg.versionToString Compiler.version)) <> "."
         ]
-    , ""
-    , P.black "-------------------------------------------------------------------------------"
-    , P.black "I highly recommend working through <https://guide.elm-lang.org> to get started."
-    , P.black "It teaches many important concepts, including how to use `elm` in the terminal."
-    , P.black "-------------------------------------------------------------------------------"
     ]
 
 
 outro :: P.Doc
 outro =
   P.fillSep $ map P.text $ words $
-    "Be sure to ask on the Elm slack if you run into trouble! Folks are friendly and\
-    \ happy to help out. They hang out there because it is fun, so be kind to get the\
-    \ best results!"
+    ""
 
 
 

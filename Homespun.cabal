@@ -14,7 +14,14 @@ cabal-version:       >=1.10
 
 executable Homespun
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:
+    Homespun.Compiler
+    Homespun.Package
+    Reporting.Suggest
+    Terminal.Args
+    Terminal.Args.Chomp
+    Terminal.Args.Error
+    Terminal.Args.Internal
   -- other-extensions:
   build-depends:       
     ansi-terminal >= 0.8 && < 0.9,
