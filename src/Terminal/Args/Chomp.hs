@@ -20,13 +20,13 @@ chomp :: Maybe Int -> [String] -> Args args -> Flags flags -> ( IO [String], Eit
 chomp maybeIndex strings args flags =
     let
         (Chomper flagChomper) =
-        chompFlags flags
+            chompFlags flags
 
         ok suggest chunks flagValue =
-        fmap (flip (,) flagValue) <$> chompArgs suggest chunks args
+            fmap (flip (,) flagValue) <$> chompArgs suggest chunks args
 
         err suggest flagError =
-        ( addSuggest (return []) suggest, Left (BadFlag flagError) )
+            ( addSuggest (return []) suggest, Left (BadFlag flagError) )
     in
     flagChomper (toSuggest maybeIndex) (toChunks strings) ok err
 

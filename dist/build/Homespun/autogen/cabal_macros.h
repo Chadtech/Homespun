@@ -11,6 +11,28 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_Homespun */
 
+/* package ansi-terminal-0.8.2 */
+#ifndef VERSION_ansi_terminal
+#define VERSION_ansi_terminal "0.8.2"
+#endif /* VERSION_ansi_terminal */
+#ifndef MIN_VERSION_ansi_terminal
+#define MIN_VERSION_ansi_terminal(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  8 || \
+  (major1) == 0 && (major2) == 8 && (minor) <= 2)
+#endif /* MIN_VERSION_ansi_terminal */
+
+/* package ansi-wl-pprint-0.6.8.2 */
+#ifndef VERSION_ansi_wl_pprint
+#define VERSION_ansi_wl_pprint "0.6.8.2"
+#endif /* VERSION_ansi_wl_pprint */
+#ifndef MIN_VERSION_ansi_wl_pprint
+#define MIN_VERSION_ansi_wl_pprint(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  6 || \
+  (major1) == 0 && (major2) == 6 && (minor) <= 8)
+#endif /* MIN_VERSION_ansi_wl_pprint */
+
 /* package base-4.11.1.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.11.1.0"
@@ -21,6 +43,50 @@
   (major1) == 4 && (major2) <  11 || \
   (major1) == 4 && (major2) == 11 && (minor) <= 1)
 #endif /* MIN_VERSION_base */
+
+/* package directory-1.3.1.5 */
+#ifndef VERSION_directory
+#define VERSION_directory "1.3.1.5"
+#endif /* VERSION_directory */
+#ifndef MIN_VERSION_directory
+#define MIN_VERSION_directory(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 1)
+#endif /* MIN_VERSION_directory */
+
+/* package edit-distance-0.2.2.1 */
+#ifndef VERSION_edit_distance
+#define VERSION_edit_distance "0.2.2.1"
+#endif /* VERSION_edit_distance */
+#ifndef MIN_VERSION_edit_distance
+#define MIN_VERSION_edit_distance(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 2)
+#endif /* MIN_VERSION_edit_distance */
+
+/* package filepath-1.4.2 */
+#ifndef VERSION_filepath
+#define VERSION_filepath "1.4.2"
+#endif /* VERSION_filepath */
+#ifndef MIN_VERSION_filepath
+#define MIN_VERSION_filepath(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 2)
+#endif /* MIN_VERSION_filepath */
+
+/* package text-1.2.3.1 */
+#ifndef VERSION_text
+#define VERSION_text "1.2.3.1"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 3)
+#endif /* MIN_VERSION_text */
 
 /* tool alex-3.2.4 */
 #ifndef TOOL_VERSION_alex

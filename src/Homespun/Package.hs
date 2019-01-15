@@ -9,7 +9,8 @@ import Data.Monoid ((<>))
 import qualified Data.Text as Text
 import qualified Data.Text.Lazy as TL
 import qualified Data.Text.Lazy.Builder as TLB
-import qualified Data.Text.Lazy.Builder.Int as B TLBI
+import qualified Data.Text.Lazy.Builder.Int as TLBI
+import Data.Text (Text)
 import Data.Word (Word16)
 
 
